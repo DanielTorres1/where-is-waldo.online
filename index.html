@@ -3,14 +3,14 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3T84G4QTJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3T84G4QTJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-R3T84G4QTJ');
-</script>
+        gtag('config', 'G-R3T84G4QTJ');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -118,6 +118,9 @@
                 </p>
             </a>
         </div>
+
+
+
     </main>
 
     <footer class="site-footer">
@@ -127,5 +130,57 @@
         </div>
     </footer>
 </body>
+
+<!-- Image Modal -->
+<div id="imageModal"
+    style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.9);">
+    <span onclick="closeModal()"
+        style="position: absolute; top: 20px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer; z-index: 10000;">&times;</span>
+    <div style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 20px;">
+        <div style="max-width: 95%; max-height: 95%; position: relative;">
+            <img id="modalImage" src="" alt=""
+                style="width: 100%; height: auto; max-height: 90vh; object-fit: contain; border-radius: 8px;">
+            <div id="modalCaption"
+                style="text-align: center; color: #ccc; padding: 10px 0; font-size: 18px; margin-top: 10px;"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openModal(imageSrc, caption) {
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const modalCaption = document.getElementById('modalCaption');
+
+        modal.style.display = 'block';
+        modalImg.src = imageSrc;
+        modalCaption.textContent = caption;
+
+        // Prevent body scroll when modal is open
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+        const modal = document.getElementById('imageModal');
+        modal.style.display = 'none';
+
+        // Re-enable body scroll
+        document.body.style.overflow = 'auto';
+    }
+
+    // Close modal when clicking outside the image
+    document.getElementById('imageModal').addEventListener('click', function (event) {
+        if (event.target === this) {
+            closeModal();
+        }
+    });
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    });
+</script>
 
 </html>

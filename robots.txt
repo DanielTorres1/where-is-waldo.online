@@ -1,4 +1,4 @@
 iUser-agent: *
 Allow: /
-Sitemap: https://www.where-is-waldo.online/sitemap.xml
+Sitemap: https://where-is-waldo.online/sitemap.xml
 

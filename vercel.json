@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "https://where-is-waldo.online/(.*)", "destination": "https://www.where-is-waldo.online/$1", "permanent": true },
+    { "source": "http://where-is-waldo.online/(.*)", "destination": "https://www.where-is-waldo.online/$1", "permanent": true }
+  ]
+}

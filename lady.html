@@ -35,6 +35,93 @@
         });
     </script>
 
+    <style>
+        /* Lightbox Modal Styles */
+        .lightbox-modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 0.3s ease;
+        }
+
+        .lightbox-modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 90vh;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            animation: zoomIn 0.3s ease;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.1);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .lightbox-close:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(90deg);
+        }
+
+        .image-grid img {
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -98,6 +185,34 @@
                 <li>Similar height to Waldo</li>
                 <li>Slender build consistent with other book characters</li>
             </ul>
+            <h2>Books Featuring Wenda</h2>
+            <p>Wenda appears in several Where's Waldo books, though not all of them. Notable appearances include:</p>
+            <ul>
+                <li>Where's Waldo? The Ultimate Fun Book</li>
+                <li>Where's Waldo? The Wonder Book</li>
+                <li>Where's Waldo? The Great Picture Hunt</li>
+                <li>Where's Waldo? The Incredible Paper Chase</li>
+                <li>Various activity and sticker books</li>
+            </ul>
+            <p>Check the book's introduction or character guide pages to see if Wenda appears in that particular volume.
+            </p>
+            <h2>Real-Life Wenda Inspiration</h2>
+            <p>Get inspired by these creative fans rocking their Wenda style in real life! From group costumes to solo
+                adventures, see how others bring the character to life.</p>
+            <div class="image-grid">
+                <img src="images/real-wenda-1.webp" alt="Real life Wenda costume inspiration - Street style"
+                    loading="lazy" />
+                <img src="images/real-wenda-2.webp" alt="Real life Wenda costume inspiration - Close up"
+                    loading="lazy" />
+                <img src="images/real-wenda-3.webp" alt="Real life Wenda costume inspiration - Full outfit"
+                    loading="lazy" />
+                <img src="images/real-wenda-4.webp" alt="Real life Wenda costume inspiration - Posing" loading="lazy" />
+                <img src="images/real-wenda-5.webp" alt="Real life Wenda costume inspiration - Outdoor"
+                    loading="lazy" />
+                <img src="images/real-wenda-6.webp" alt="Real life Wenda costume inspiration - Portrait"
+                    loading="lazy" />
+                <img src="images/real-wenda-7.webp" alt="Real life Wenda costume inspiration - Candid" loading="lazy" />
+            </div>
             <h2>Where to Get Your Wenda Costume</h2>
             <p>Ready to dress up as Wenda? Check out these great costume options to complete your look.</p>
             <div class="grid">
@@ -177,34 +292,7 @@
             <p>Interestingly, many readers find Wenda slightly easier to spot than Waldo because of her distinctive
                 skirt. However, this depends on the scene and individual search strategies. In some contexts, the skirt
                 makes her more visible, while in others it blends into the background.</p>
-            <h2>Books Featuring Wenda</h2>
-            <p>Wenda appears in several Where's Waldo books, though not all of them. Notable appearances include:</p>
-            <ul>
-                <li>Where's Waldo? The Ultimate Fun Book</li>
-                <li>Where's Waldo? The Wonder Book</li>
-                <li>Where's Waldo? The Great Picture Hunt</li>
-                <li>Where's Waldo? The Incredible Paper Chase</li>
-                <li>Various activity and sticker books</li>
-            </ul>
-            <p>Check the book's introduction or character guide pages to see if Wenda appears in that particular volume.
-            </p>
-            <h2>Real-Life Wenda Inspiration</h2>
-            <p>Get inspired by these creative fans rocking their Wenda style in real life! From group costumes to solo
-                adventures, see how others bring the character to life.</p>
-            <div class="image-grid">
-                <img src="images/real-wenda-1.webp" alt="Real life Wenda costume inspiration - Street style"
-                    loading="lazy" />
-                <img src="images/real-wenda-2.webp" alt="Real life Wenda costume inspiration - Close up"
-                    loading="lazy" />
-                <img src="images/real-wenda-3.webp" alt="Real life Wenda costume inspiration - Full outfit"
-                    loading="lazy" />
-                <img src="images/real-wenda-4.webp" alt="Real life Wenda costume inspiration - Posing" loading="lazy" />
-                <img src="images/real-wenda-5.webp" alt="Real life Wenda costume inspiration - Outdoor"
-                    loading="lazy" />
-                <img src="images/real-wenda-6.webp" alt="Real life Wenda costume inspiration - Portrait"
-                    loading="lazy" />
-                <img src="images/real-wenda-7.webp" alt="Real life Wenda costume inspiration - Candid" loading="lazy" />
-            </div>
+
             <div class="content-section"
                 style="background: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 100%); margin-top: 2rem;">
                 <h2>Start Searching for Wenda</h2>
@@ -239,6 +327,55 @@
             <p>© 2025 Where's Waldo Resource. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged view">
+    </div>
+
+    <script>
+        // Lightbox functionality
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.getElementById('lightbox-close');
+
+        // Get all images in the image-grid
+        const gridImages = document.querySelectorAll('.image-grid img');
+
+        // Add click event to each image
+        gridImages.forEach(img => {
+            img.addEventListener('click', function () {
+                lightbox.classList.add('active');
+                lightboxImg.src = this.src;
+                lightboxImg.alt = this.alt;
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            });
+        });
+
+        // Close lightbox when clicking the close button
+        lightboxClose.addEventListener('click', closeLightbox);
+
+        // Close lightbox when clicking outside the image
+        lightbox.addEventListener('click', function (e) {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        // Close lightbox with Escape key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                closeLightbox();
+            }
+        });
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+    </script>
+
 </body>
 
 </html>

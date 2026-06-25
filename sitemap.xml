@@ -87,26 +87,7 @@
 			<image:loc>https://where-is-waldo.online/images/wheres-waldo-image-12.jpeg</image:loc>
 	</image:image>
 </url>
-<url>
-	<loc>https://where-is-waldo.online/page.html</loc>
-	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
-	<priority>1.0</priority>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-page-1.webp</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-page-2.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-page-3.webp</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-page-4.webp</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-page-5.webp</image:loc>
-	</image:image>
-</url>
+
 <url>
 	<loc>https://where-is-waldo.online/picture.html</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>

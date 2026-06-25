@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 	<loc>https://where-is-waldo.online/</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
@@ -10,42 +9,12 @@
 	<loc>https://where-is-waldo.online/costume.html</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
 	<priority>1.0</priority>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-costume-1.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-costume-2.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-costume-3.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-costume-4.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-costume-5.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-costume-6.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-costume-7.jpg</image:loc>
-	</image:image>
-</url>
+	</url>
 <url>
 	<loc>https://where-is-waldo.online/game.html</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
 	<priority>1.0</priority>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-game-1.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-game-2.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-game-3.jpg</image:loc>
-	</image:image>
-</url>
+	</url>
 <url>
 	<loc>https://where-is-waldo.online/image.html</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
@@ -92,84 +61,12 @@
 	<loc>https://where-is-waldo.online/picture.html</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
 	<priority>1.0</priority>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-1.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-2.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-3.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-4.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-5.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-6.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-7.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-8.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-9.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-10.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-11.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-12.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-13.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-14.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-15.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-16.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-17.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-18.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-19.jpeg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-picture-20.jpeg</image:loc>
-	</image:image>
-</url>
+	</url>
 <url>
 	<loc>https://where-is-waldo.online/puzzle.html</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
 	<priority>1.0</priority>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-puzzle-1.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-puzzle-2.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-puzzle-3.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-puzzle-4.jpg</image:loc>
-	</image:image>
-</url>
+	</url>
 <url>
 	<loc>https://where-is-waldo.online/shirt.html</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>

@@ -68,47 +68,6 @@
 	<priority>1.0</priority>
 	</url>
 <url>
-	<loc>https://where-is-waldo.online/shirt.html</loc>
-	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
-	<priority>1.0</priority>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-1.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-2.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-3.png</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-4.png</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-5.png</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-6.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-7.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-8.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-9.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-10.jpg</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-11.webp</image:loc>
-	</image:image>
-	<image:image>
-			<image:loc>https://where-is-waldo.online/images/wheres-waldo-shirt-12.webp</image:loc>
-	</image:image>
-</url>
-<url>
 	<loc>https://where-is-waldo.online/index.html</loc>
 	<lastmod>2025-12-03T00:06:26+01:00</lastmod>
 	<priority>1.0</priority>
